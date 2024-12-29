@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pic" >
+        <img src="i.avif" alt="">
+    </div>
+    <div class="login-page">
+       
+            <form action="#" class="form">
+                <div class="images">
+                    <img src="login.webp" alt="" >
+                </div>
+                <div class="section1" style="height:30px;">
+                    <label for="name">Full Name</label>
+                    <input class="i1" type="text" name="" id="name" placeholder=" Enter yours Full Name " >
+                    
+                    <p id="err1">plz enter your name  </p>
+                    <!-- <p  class="p2" id="err2">first letter must be capital </p> -->
+                </div>
+                <div class="section2" style="height: 30px;">
+                    <label for="portal-id">Portal Id </label>
+                    <input type="email" placeholder=" Enter portal id " class="i2">
+                    <p id="id1" class="portalid">Enter yours portal id  </p>
+                </div>
+                <div class="section3" style="height: 30px;">
+                    <label for="pass">Password  </label>
+                    <input type="password" placeholder=" atleast 6 characters  " class="i3" min="8" max="13">
+                    <p id="invalid-password">Password can't Empty</p>
+                </div>
+                <button   class="btn">Create Account</button>
+                <footer>
+                    <p style="display: inline;">Already have an Account ?</p>
+                    <a href="#">Sign Up</a>
+                </footer>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
