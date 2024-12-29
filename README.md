@@ -1,6 +1,10 @@
 # Login-Page-with-JS-Absolute-Beginner-
 An absolute beginner JS project to understand the flow and logic of JS 
 
+![Login Page Screenshot](https://raw.githubusercontent.com/MuhammadFahad27/Login-Page-with-JS-Absolute-Beginner-/main/login%20page%20with%20js/Capture.PNG)
+
+
+
 
 This project focuses on implementing a fully functional login page using JavaScript, showcasing core concepts such as basic DOM manipulation, event handling, and asynchronous programming. The goal is to provide a user-friendly interface with robust input validation and error handling for a seamless login experience. Below are the key features of the project:
 
@@ -33,10 +37,4 @@ Missing username or password.
 Invalid characters in the username or password.
 Network issues or server downtime during authentication.
 Provides retry options or alternative suggestions for resolving issues.
-7. Responsive Design
-Ensures the login page works seamlessly across various devices and screen sizes.
-Uses CSS and JavaScript to adapt UI elements for mobile, tablet, and desktop users.
-8. Customizable and Extensible
-Built with modular and reusable JavaScript code for easy integration into larger projects.
-Provides a foundation for adding features like "Forgot Password" or "Create Account" options in the future.
-This project is ideal for showcasing foundational JavaScript skills while emphasizing user experience and robustness. It demonstrates the effective use of DOM manipulation, event handling, and asynchronous programming to handle real-world scenarios, such as validating user input and managing server interactions.
+
